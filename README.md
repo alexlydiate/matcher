@@ -1,10 +1,10 @@
 ## Matcher
 
-This is an experiment in matching and parallel processing, taking the products found in data/products.txt and finding matching listings for them from data/listings.txt using parallel processing to make it speedy.
+An experiment in matching and parallel processing. It takes the products found in data/products.txt and finds matching listings for them from data/listings.txt using parallel processing to make it speedy.
 
 To run, execute go.py.
 
-#Matching
+# Matching
 
 It uses two methods of matching, which I am calling Hard Matching and Split Matching.
 
@@ -16,7 +16,7 @@ The Split Matcher matches if it finds the component words of the product name at
 
 Split Matching can be turned off in the config.
 
-#Mutiple Parallel Processes
+# Mutiple Parallel Processes
 
 The program is distributed across any number of parallel processes, so reducing the wall time in processing the products. From the data given in /data and on my laptop, using one process completes the task in around 65 seconds. With the default setting of four processes, this is reduced to around 22 seconds.
 
