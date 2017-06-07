@@ -24,7 +24,7 @@ if not os.path.exists(config.tmp_path):
 #Split Products file into one for each process, with roughly the same amount of products in each, returning a list of those files
 split_files = matcherlib.split_file(config.product_file_path, config.processes)
 
-#For each split file, spin up a thread and process it against the listings file:
+#For each split file, spin up a process and run it against the listings file:
 processes = []
 process_number = 1
 for split_file in split_files:
