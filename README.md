@@ -1,6 +1,8 @@
 #### An experiment in matching and parallel processing. It takes the products found in data/products.txt and finds matching listings for them from data/listings.txt using parallel processing to make it speedy.
 
-#### To run, execute go.py.
+It requires Python 3 and probably Linux - I haven't run it anywhere else, in any case.
+
+To run, execute go.py.
 
 ## Matching
 
