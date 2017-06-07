@@ -1,8 +1,6 @@
-# Matcher
+#### An experiment in matching and parallel processing. It takes the products found in data/products.txt and finds matching listings for them from data/listings.txt using parallel processing to make it speedy.
 
-An experiment in matching and parallel processing. It takes the products found in data/products.txt and finds matching listings for them from data/listings.txt using parallel processing to make it speedy.
-
-To run, execute go.py.
+#### To run, execute go.py.
 
 ## Matching
 
