@@ -87,6 +87,4 @@ def merge_files(split_files):
         with open(config.tmp_path + 'results_' + split_file, 'r') as split_handle:
             for line in split_handle:
                 results_handle.write(line)
-            
-
-    
+                
