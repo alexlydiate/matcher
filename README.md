@@ -2,7 +2,7 @@
 
 It requires Python 3 and probably Linux - I haven't run it anywhere else, in any case.
 
-To run, execute go.py.
+To run, clone the repository and run go.py.
 
 ## Matching
 
