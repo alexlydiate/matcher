@@ -22,7 +22,7 @@ if not os.path.exists(config.tmp_path):
     os.makedirs(config.tmp_path)
 
 #Split Products file into one for each process, with roughly the same amount of products in each, returning a list of those files
-split_files = matcherlib.split_file(config.path + '/data/products.txt', config.processes)
+split_files = matcherlib.split_file(config.product_file_path, config.processes)
 
 #For each split file, spin up a thread and process it against the listings file:
 processes = []

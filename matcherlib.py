@@ -45,7 +45,7 @@ def process_product_file(file, process_number):
             result['product_name'] = product['product_name']
             result['listings'] = []
             
-            with open(config.path + '/data/listings.txt', 'r') as listings_handle:
+            with open(config.listings_file_path, 'r') as listings_handle:
                 for line in listings_handle:
                     listing = json.loads(line)
                                    
