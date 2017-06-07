@@ -45,3 +45,6 @@ coverage.xml
 #eclipse
 .project
 .pydevproject
+
+#specifics
+data/results.txt

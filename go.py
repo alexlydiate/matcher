@@ -3,8 +3,7 @@ import os, shutil, time
 from multiprocessing import Process
 from datetime import datetime
 
-import config
-from lib import matcherlib
+import config, matcherlib
 
 start = datetime.now()
 
