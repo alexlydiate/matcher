@@ -20,5 +20,4 @@ Split Matching can be turned off in the config.
 
 The program is distributed across any number of parallel processes, so reducing the wall time in processing the products. From the data given in /data and on my laptop, using one process completes the task in around 65 seconds. With the default setting of four processes, this is reduced to around 22 seconds.
 
-The number of processes are configurable within config.py. I found on my machine increasing above four kicks in the law of diminishing returns, and beware - this is just for a bit of a fun and experimentation, it is not anything like a production-
- ready bit of kit. There are no safety valves and if you raise the number of processes too high it will bring your machine to its knees without a trace of shame or remorse.
+The number of processes are configurable within config.py. I found on my machine increasing above four kicks in the law of diminishing returns, and beware - this is just for a bit of a fun and experimentation. There are no safety valves and if you raise the number of processes too high it will bring your machine to its knees without a trace of shame or remorse.
